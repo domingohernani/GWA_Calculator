@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.answer_box {
+    padding: 2rem;
+    margin: auto;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.container_courses {
+    height: auto;
+    padding: 1.3rem;
+    margin-top: -2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+    .boxes {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        position: relative;
+
+        margin: 1rem;
+        border-radius: 0.5rem;
+        max-width: 16rem;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+        input {
+            grid-column: 1 / 4;
+            padding: 0.3rem 0;
+            margin: auto;
+            margin-bottom: 0.4rem;
+            width: 75%;
+
+            border-radius: 0.5rem;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+        }
+
+        #add, #remove, #compute {
+            width: 10rem;
+            height: 2.2rem;
+            margin: 0 1rem;
+
+            border: none;
+            background-color: white;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            border-radius: 1.4rem;
+        }
+        #compute {
+            display: block;
+            margin: 1rem auto;
+        }
+        .material-symbols-outlined {
+            border: none;
+            background-color: white;
+        }
+        .material-symbols-outlined:hover {
+            cursor: default;
+        }
+
